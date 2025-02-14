@@ -1,0 +1,88 @@
+baseURL = 'https://DeepSpaceTravel.github.io'
+languageCode = 'en-us'
+title = "Space Traveler's Blog"
+theme = 'hugo-theme-stack'
+
+#Manuel Added
+hasCJKLanguage = true
+enableEmoji = true
+enableRobotsTXT = true
+# timeZone = "Asia/Taipei"
+
+
+
+# Widgets
+[widgets.homepage]
+
+[widgets.page]
+
+# Taxonomies
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
+# Params
+[Params]
+mainSections = "posts"
+
+[Params.DateFormat]
+    published = "2006-01-02"
+    lastUpdated = "2006-01-02"
+
+[Params.Article]
+    math = true
+    readingTime = true
+
+# Menu
+[menu]
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+    identifier = "home"
+    [menu.main.params]
+        icon = "home"
+        newTab = false
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 30
+    identifier = "about"
+    [menu.main.params]
+        icon = "user"
+        newTab = false
+
+[[menu.main]]
+    name = "Archives"
+    url = "/archives/"
+    weight = 50
+    identifier = "archives"
+    [menu.main.params]
+        icon = "archives"
+        newTab = false
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 70
+    identifier = "tags"
+    [menu.main.params]
+        icon = "tag"
+        newTab = false
+
+[[menu.social]]
+    name = "Linkedin"
+    url = "https://google.com" # Add your LinkedIn URL here
+    weight = 1000
+    [menu.social.params]
+        icon = "brand-linkedin"
+        newTab = true
+
+[[menu.social]]
+    name = "GitHub"
+    url = "https://github.com/DeepSpaceTravel/"
+    weight = 3000
+    [menu.social.params]
+        icon = "brand-github"
+        newTab = true
