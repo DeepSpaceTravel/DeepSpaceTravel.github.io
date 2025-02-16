@@ -8,6 +8,7 @@ draft = true
 # layout = "archives"
 math = true
 # tags = [""]
+# categories = [""]
 [params]
     author = "DeepSpaceTravel"
 +++

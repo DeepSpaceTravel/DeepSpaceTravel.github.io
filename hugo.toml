@@ -1,4 +1,4 @@
-baseURL = 'https://DeepSpaceTravel.github.io'
+baseURL = 'https://deepspacetravel.github.io/'
 languageCode = 'en-us'
 title = "Space Traveler's Blog"
 theme = 'hugo-theme-stack'
@@ -13,25 +13,7 @@ enableRobotsTXT = true
 
 # Widgets
 [widgets.homepage]
-
 [widgets.page]
-
-# Taxonomies
-[taxonomies]
-    tag = "tags"
-    category = "categories"
-
-# Params
-[Params]
-mainSections = "posts"
-
-[Params.DateFormat]
-    published = "2006-01-02"
-    lastUpdated = "2006-01-02"
-
-[Params.Article]
-    math = true
-    readingTime = true
 
 # Menu
 [menu]
@@ -86,3 +68,20 @@ mainSections = "posts"
     [menu.social.params]
         icon = "brand-github"
         newTab = true
+
+# Params
+[Params]
+mainSections = "posts"
+
+[Params.Article]
+    math = true
+    readingTime = true
+
+[Params.DateFormat]
+    published = "2006-01-02"
+    lastUpdated = "2006-01-02"
+
+# Taxonomies
+[taxonomies]
+    tag = "tags"
+    category = "categories"
