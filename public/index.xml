@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Space Traveler&#39;s Blog</title>
+        <title>Home on Space Traveler&#39;s Blog</title>
         <link>http://localhost:1313/</link>
-        <description>Recent content on Space Traveler&#39;s Blog</description>
+        <description>Recent content in Home on Space Traveler&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Wed, 12 Feb 2025 23:11:33 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
@@ -24,8 +24,67 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/about/</guid>
-        <description>&lt;h1 id=&#34;whats-up-bois&#34;&gt;What&amp;rsquo;s up bois
-&lt;/h1&gt;&lt;p&gt;It is just me&lt;/p&gt;
+        <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me
+&lt;/h1&gt;&lt;p&gt;An undergraduate student, while also being an amateur Rustacean. &lt;!-- raw HTML omitted --&gt;
+Love diving into the deep space of Science, Programming Languages &amp;amp; Knowledge.&lt;/p&gt;
+&lt;h2 id=&#34;awards--certifications&#34;&gt;Awards / Certifications
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;AWS Cloud Practitioner&lt;/li&gt;
+&lt;li&gt;TOEFL - 91&lt;/li&gt;
+&lt;li&gt;TOEIC - 975&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education
+&lt;/h2&gt;&lt;h3 id=&#34;national-chengchi-university-taiwan&#34;&gt;&lt;strong&gt;National Chengchi University, Taiwan&lt;/strong&gt;
+&lt;/h3&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Economics&lt;/code&gt; (Primary Major)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Electro-Physics&lt;/code&gt; (Double Major)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Applied Mathematics&lt;/code&gt; (Minor)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;courses-taken&#34;&gt;Courses Taken
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Introduction to Quantum Computing Course&lt;/strong&gt; sponsored by IBM Quantum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;projects&#34;&gt;Projects
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OT_Calculator&lt;/strong&gt;: &lt;!-- raw HTML omitted --&gt;
+A mobile application for calculating Extra Duty Pay based on certain criteria. &lt;!-- raw HTML omitted --&gt;
+Written in Kotlin Multiplatform. Utilizing:
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jetbrains.com/compose-multiplatform/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Compose Multiplatform&lt;/a&gt; as front-end framework&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/InsertKoinIO/koin&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Koin&lt;/a&gt; for Dependecy Injection&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/sqldelight/sqldelight&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SQLDelight&lt;/a&gt; for Storage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;skills&#34;&gt;Skills
+&lt;/h2&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;Rust - Constantly Learning&lt;/li&gt;
+&lt;li&gt;Kotlin - Mobile Application Developement&lt;/li&gt;
+&lt;li&gt;Python - Basic Data Analysis&lt;/li&gt;
+&lt;li&gt;Linux - Some CLI commands&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;miscellaneous&#34;&gt;Miscellaneous
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Languages:
+&lt;ul&gt;
+&lt;li&gt;Mandarin - Native&lt;/li&gt;
+&lt;li&gt;Taiwanese - Native&lt;/li&gt;
+&lt;li&gt;English - Working Proficiency&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
 </description>
         </item>
         <item>

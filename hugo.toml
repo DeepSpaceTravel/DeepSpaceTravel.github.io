@@ -72,6 +72,7 @@ enableRobotsTXT = true
 # Params
 [Params]
 mainSections = "posts"
+featureImageField = "image"
 
 [Params.Article]
     math = true
@@ -80,6 +81,24 @@ mainSections = "posts"
 [Params.DateFormat]
     published = "2006-01-02"
     lastUpdated = "2006-01-02"
+
+[Params.Footer]
+    # since = 2025
+    # customText = """
+    # © 2025 Space Traveler's Blog. <br>
+    # All rights reserved.Powered by Hugo with the Stack theme.
+    # """
+
+[Params.Sidebar]
+compact = false
+# emoji = "🚀"
+# subtitle = "A blog about space travel and exploration."
+
+# Sitemap
+[sitemap]
+    # changefreq = "weekly"
+    # priority = 0.5
+    # filename = "sitemap.xml"
 
 # Taxonomies
 [taxonomies]

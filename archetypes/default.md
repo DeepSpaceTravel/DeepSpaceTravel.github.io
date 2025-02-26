@@ -4,11 +4,13 @@ date = {{ .Date }}
 draft = true
 
 # Manuel Added
+description = ""
+# image = ""
 # isCJKLanguage = true
-# layout = "archives"
 math = true
-# tags = [""]
 # categories = [""]
+# tags = [""]
+# readingTime = false
 [params]
     author = "DeepSpaceTravel"
 +++
