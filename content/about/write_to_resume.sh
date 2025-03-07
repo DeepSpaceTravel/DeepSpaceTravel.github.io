@@ -1,3 +1,6 @@
 #!/bin/sh
 
-typst compile resume.md -o resume.pdf
+# Compile to PDF
+typst compile resume.typ -o resume.pdf
+
+tail -n +8 index.md > resume.md
