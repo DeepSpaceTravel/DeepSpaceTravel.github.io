@@ -22,7 +22,7 @@
 #align(center)[
     #block(
         text(weight: 700, size: 2em)[
-            
+            _Put your name here_
         ]
     )
 ]
@@ -35,9 +35,9 @@
         #grid(
         columns: 3,
         gutter: 1em,
-        [🐙#link("https://github.com/DeepSpaceTravel")[GitHub]],
-        [✉️#link("")[Email]],
-        [👔#link("")[LinkedIn]],
+        [#link("https://github.com/DeepSpaceTravel")[🐙GitHub]],
+        [#link("")[✉️Email]],
+        [#link("")[👔LinkedIn]],
         )
     ],
     )
@@ -51,8 +51,6 @@ Love diving into the deep space of Science, Programming Languages & Knowledge.
 - Inno Services Awards(TGOS group) - 3rd place
 
 == Education
-// === _Junior_, National Chengchi University, Taiwan
-// _August, 2022 - June, 2026 (est.)_ \ 
 
 #grid(
     columns: (auto, 1fr),
@@ -64,9 +62,11 @@ Love diving into the deep space of Science, Programming Languages & Knowledge.
     ]
 )
 
-- Economics (Primary Major)
+- Economics (Major)
 - Electro-Physics (Double Major)
 - Applied Mathematics (Minor)
+
+GPA: 3.36/4.0
 
 === Courses Taken:
 - Introduction to Quantum Computing Course sponsored by IBM Quantum
@@ -78,7 +78,7 @@ Love diving into the deep space of Science, Programming Languages & Knowledge.
 // == Experience
 
 == Projects
-=== OT_Calculator:\  
+=== #link("https://github.com/DeepSpaceTravel/OT_Calculator")[OT_Calculator]\  
 A mobile application for calculating Extra Duty Pay based on certain criteria. 
 Written in Kotlin Multiplatform. Utilizing: 
 - #underline(link("https://www.jetbrains.com/compose-multiplatform/")[Compose Multiplatform]) as front-end framework
@@ -89,7 +89,7 @@ Written in Kotlin Multiplatform. Utilizing:
 
 == Skills
 // === Professional:
-- Languages: Rust, Kotlin, Python, Linux
+- Languages: Rust, Kotlin, Python, Linux(cli)
 
 
 // === Has Experiences in Production:
