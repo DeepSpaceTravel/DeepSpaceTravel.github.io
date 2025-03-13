@@ -10,11 +10,11 @@ sed -i -E 's|\("[^"]*"\)\[✉️Email\]|("")[✉️Email]|g' resume_out.typ
 sed -i -E 's|\("[^"]*"\)\[👔LinkedIn\]|("")[👔LinkedIn]|g' resume_out.typ
 
 # Add `-z` flag to `sed` to enable multi-line regex
-sed -E 's|text\(weight: 700, size: 2em\)\[[^]]*\]|\
+sed -i -E 's|text\(weight: 700, size: 2em\)\[[^]]*\]|\
 \        text(weight: 700, size: 2em)[\
 \
 \        ]\
 |g' resume_out.typ -z
 
 
-# git add resume_out.typ
+git add resume_out.typ

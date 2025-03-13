@@ -21,9 +21,11 @@
 
 #align(center)[
     #block(
+        
         text(weight: 700, size: 2em)[
-            _Put your name here_
+
         ]
+
     )
 ]
 
@@ -40,7 +42,7 @@
         [#link("")[👔LinkedIn]],
         )
     ],
-    )
+)
 
 = About Me
 An undergraduate student, while also being an amateur Rustacean. 
@@ -74,6 +76,7 @@ GPA: 3.36/4.0
 - EE related: Electronics, Electronic Circuits 
 // - Physics related: Electromagnetism, Modern Physics, Introduction to Semiconductor Physics and Devices
 // - Mathematics related: Linear Algebra, Theory of Probability, Differential Equations
+// - Economics related: Microeconomics, Macroeconomics, Econometrics, International Finance
 
 // == Experience
 
@@ -104,4 +107,7 @@ Written in Kotlin Multiplatform. Utilizing:
     // - French - Currently Self Learning
     // - German - Currently Self Learning
     // - Japanese - Currently Self Learning
+- Hobbies:
+    - Learning about embedded systems w/ Rust & Embassy.rs
+    - Participate in Financial Markets
 // - Open Source Projects Contributions: 
