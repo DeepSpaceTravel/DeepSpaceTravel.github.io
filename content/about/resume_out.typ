@@ -21,11 +21,9 @@
 
 #align(center)[
     #block(
-        
-        text(weight: 700, size: 2em)[
-
+        text(weight: 700, size: 2em, font: "Noto Sans CJK TC")[
+            名字
         ]
-
     )
 ]
 
@@ -71,16 +69,21 @@ Love diving into the deep space of Science, Programming Languages & Knowledge.
 GPA: 3.36/4.0
 
 === Courses Taken:
-- Introduction to Quantum Computing Course sponsored by IBM Quantum
+// - Introduction to Quantum Computing Course sponsored by IBM Quantum
 - CS related: Data Structure, Introduction to Digital System, Introduction to Data Communication and Networking 
 - EE related: Electronics, Electronic Circuits 
-// - Physics related: Electromagnetism, Modern Physics, Introduction to Semiconductor Physics and Devices
-// - Mathematics related: Linear Algebra, Theory of Probability, Differential Equations
+- Physics related: Electromagnetism, Modern Physics, Introduction to Semiconductor Physics and Devices
+- Mathematics related: Linear Algebra, Theory of Probability, Differential Equations
 // - Economics related: Microeconomics, Macroeconomics, Econometrics, International Finance
 
 // == Experience
 
 == Projects
+=== #link("")[]\ 
+A short film produced when participated in Mass Media Club in highschool.
+- Shot, Video/Audio Edited, and Color Graded by myself.
+- Utilized Davinci Resolve for editing, audio mixing and color grading.
+
 === #link("https://github.com/DeepSpaceTravel/OT_Calculator")[OT_Calculator]\  
 A mobile application for calculating Extra Duty Pay based on certain criteria. 
 Written in Kotlin Multiplatform. Utilizing: 
@@ -88,12 +91,13 @@ Written in Kotlin Multiplatform. Utilizing:
 - #underline(link("https://github.com/InsertKoinIO/koin/")[Koin]) for Dependecy Injection
 - #underline(link("https://github.com/sqldelight/sqldelight", "SQLDelight")) for Storage
 
+
 // == Academic Research
 
 == Skills
 // === Professional:
-- Languages: Rust, Kotlin, Python, Linux(cli)
-
+- Languages: Rust, Kotlin(Android), Python, Linux(cli)
+- Multimedia: Davinci Resolve, Adobe Lightroom
 
 // === Has Experiences in Production:
 
@@ -108,6 +112,10 @@ Written in Kotlin Multiplatform. Utilizing:
     // - German - Currently Self Learning
     // - Japanese - Currently Self Learning
 - Hobbies:
-    - Learning about embedded systems w/ Rust & Embassy.rs
-    - Participate in Financial Markets
+    // - Learning about embedded systems w/ Rust & Embassy.rs
+    // - Exploring cloud technologies (e.g. Kubernetes, containerization)
+    // - Participate in Financial Markets
+    - Multimedia Production
+    - Photography
+    - Colorgrading
 // - Open Source Projects Contributions: 
