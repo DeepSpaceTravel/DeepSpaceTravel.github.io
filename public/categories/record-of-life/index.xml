@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Record of Life on Space Traveler&#39;s Blog</title>
+        <link>http://localhost:1313/categories/record-of-life/</link>
+        <description>Recent content in Record of Life on Space Traveler&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 15 Apr 2025 20:47:57 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/record-of-life/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>My First Accepted Pull Request</title>
+        <link>http://localhost:1313/posts/2025/my-first-pull-request/</link>
+        <pubDate>Tue, 15 Apr 2025 20:47:57 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/2025/my-first-pull-request/</guid>
+        <description>&lt;p&gt;(Link to &lt;a class=&#34;link&#34; href=&#34;https://github.com/tokio-rs/axum/pull/3311&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PR&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;my-first-pull-request-was-accepted&#34;&gt;My first pull request was accepted
+&lt;/h2&gt;&lt;p&gt;So days ago, I was browsing through the docs of &lt;a class=&#34;link&#34; href=&#34;https://github.com/tokio-rs/axum&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Axum&lt;/a&gt; framework. And the &lt;code&gt;Router&lt;/code&gt; struct&amp;rsquo;s &lt;code&gt;route&lt;/code&gt; method&amp;rsquo;s description was confusing me. It writes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;method_router&lt;/code&gt; is the &lt;code&gt;MethodRouter&lt;/code&gt; that should receive the request if the path matches &lt;code&gt;path&lt;/code&gt;. &lt;code&gt;method_router&lt;/code&gt; will commonly be a handler wrapped in a method router like &lt;code&gt;get&lt;/code&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;The part that confuses me is:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;hellip;if the path matches &lt;code&gt;path&lt;/code&gt;. &lt;code&gt;method_router&lt;/code&gt; will commonly&amp;hellip;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;See that? &lt;code&gt;path&lt;/code&gt;.&lt;code&gt;methed_router&lt;/code&gt;? I mistakenly intepret it as &lt;code&gt;path.method_router&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;fixing-the-problem&#34;&gt;Fixing the problem
+&lt;/h2&gt;&lt;p&gt;So, with the meaning figured out, I set out to open a pull request on the project&amp;rsquo;s repo, along with the fear of not being accepted. But to my surprise, my &lt;a class=&#34;link&#34; href=&#34;https://github.com/tokio-rs/axum/pull/3311&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PR&lt;/a&gt; wasn&amp;rsquo;t being called out for naive or &lt;em&gt;Get Good&lt;/em&gt;. Instead, the maintainer recognized the problem and suggested a better way of solving it.&lt;/p&gt;
+&lt;p&gt;Along the way, I was also introduced to &lt;code&gt;cargo doc&lt;/code&gt; command, which for an amateur programmer like me, might not really get in touch with it often.&lt;/p&gt;
+&lt;p&gt;After a rewrite and several git commands. My PR was accepted!!&lt;/p&gt;
+&lt;h2 id=&#34;ending&#34;&gt;Ending
+&lt;/h2&gt;&lt;p&gt;At the end of the day, I just want to say that it was a wonderful experience to see my little effort being accepted by such a large project. A big thank you to the community and the maintainers of Axum for taking my contribution seriously. It really gives me confidence to contribute more.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the link to the  accepted &lt;a class=&#34;link&#34; href=&#34;https://github.com/tokio-rs/axum/pull/3311&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PR&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
